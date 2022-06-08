@@ -14,7 +14,8 @@ https://maven.apache.org/download.cgi
 
 Results:
 
-...>mvn --version
+>mvn --version
+
 Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
 Maven home: D:\TECH_ENV\maven\apache-maven-3.8.5
 Java version: 18-ea, vendor: Oracle Corporation, runtime: D:\TECH_ENV\java\jdk-18
