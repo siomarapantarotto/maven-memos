@@ -13,6 +13,7 @@ https://maven.apache.org/download.cgi
 5. Confirm installation running "mvn -v" or "mvm --version" in a new shell/DOS.
 
 Results:
+
 ...>mvn --version
 Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
 Maven home: D:\TECH_ENV\maven\apache-maven-3.8.5
@@ -22,6 +23,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 ## Check environment variable on Windows
 
-echo %JAVA_HOME% 
+echo %JAVA_HOME%
+
 C:\Program Files\Java\jdkX.X.X
 
