@@ -42,3 +42,10 @@ C:\Program Files\Java\jdkX.X.X
       mvn archetype:generate -DgroupId=br.com.siomara -DartifactId=fraud-check-service -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
       
 ![fraud-check-service](https://user-images.githubusercontent.com/5893219/172744242-02605300-d87c-4ef2-af14-0c10f3ec78a5.png)
+
+            D:\SpringBootProjects>cd fraud-check-service
+
+            D:\SpringBootProjects\fraud-check-service>tree /f /a
+
+![fraud-check-service_tree](https://user-images.githubusercontent.com/5893219/172756119-e3916cc9-1c84-4782-802e-b39059c358b9.png)
+
