@@ -35,13 +35,13 @@ C:\Program Files\Java\jdkX.X.X
 
       mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
       
-OBSERVATION 1:
+OBSERVATION 1: There is no need to create a folder for the project because the command above will create it. So just cd to the place where you want the project folder to be created. In case the project folder exists, the command will not cause an error. It will cause just a warning saying that the folder already exixts. Notice that the group Id below is just the domain, the ".app" was not appended.
 
-There is no need to create a folder for the project because the command above will create it. So just cd to the place where you want the project folder to be created. In case the project folder exists, the command will not cause an error. It will cause just a warning saying that the folder already exixts. Notice that group Id is just the domain, the .app was not appended.
+OBSERVATION 2: If you have just installed Maven, it may take a while on the first run. This is because Maven is downloading the most recent artifacts (plugin jars and other files) into your local repository. You may also need to execute the command a couple of times before it succeeds. This is because the remote server may time out before your downloads are complete. Don't worry, there are ways to fix that.
 
  mvn archetype:generate -DgroupId=br.com.siomara -DartifactId=fraud-check-service -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
       
       ![fraud-check-service](https://user-images.githubusercontent.com/5893219/172744242-02605300-d87c-4ef2-af14-0c10f3ec78a5.png)
       
-OBSERVATION 2: If you have just installed Maven, it may take a while on the first run. This is because Maven is downloading the most recent artifacts (plugin jars and other files) into your local repository. You may also need to execute the command a couple of times before it succeeds. This is because the remote server may time out before your downloads are complete. Don't worry, there are ways to fix that.
+
 
