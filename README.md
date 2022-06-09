@@ -41,7 +41,4 @@ OBSERVATION 2: If you have just installed Maven, it may take a while on the firs
 
  mvn archetype:generate -DgroupId=br.com.siomara -DartifactId=fraud-check-service -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
       
-      ![fraud-check-service](https://user-images.githubusercontent.com/5893219/172744242-02605300-d87c-4ef2-af14-0c10f3ec78a5.png)
-      
-
-
+![fraud-check-service](https://user-images.githubusercontent.com/5893219/172744242-02605300-d87c-4ef2-af14-0c10f3ec78a5.png)
