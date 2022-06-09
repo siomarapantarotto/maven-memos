@@ -30,8 +30,10 @@ C:\Program Files\Java\jdkX.X.X
 
 ## Creating a Project
 
-1. Create a directory somewhere for the project and start a shell in that directory.
+1. Create a directory for the project and start a shell in that directory.
 2. On the command line, execute the following Maven command:
 
       mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+      
+      ![fraud-check-service](https://user-images.githubusercontent.com/5893219/172744242-02605300-d87c-4ef2-af14-0c10f3ec78a5.png)
 
