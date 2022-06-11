@@ -1,4 +1,6 @@
-# Maven Memos
+# Maven Memos for Building Microservices and Distributed Systems
+
+These are the first steps to start Microservices and Distributed Systems from the ground with Maven.
 
 ## Download Apache Maven X.X.X
 
@@ -57,5 +59,9 @@ Delete SRC folder from the maven parent project (parent module)
 
 ## Open and set pom.xml correctly to start coding
 
-Check 'fraud-check-service' repo from now on.
+Main configuration is complete.
+
+Parent project pom.xml file is set up properly.
+
+Check **'fraud-check-service'** repo from now on.
 
