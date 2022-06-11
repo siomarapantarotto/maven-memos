@@ -49,4 +49,11 @@ C:\Program Files\Java\jdkX.X.X
 
 ![fraud-check-service_tree](https://user-images.githubusercontent.com/5893219/172763202-8e5b6670-6b09-4717-88e1-a0bc11dfd744.png)
 
+## Open the project with the IDE (IntelliJ)
+
+Set SDK if not set 
+
+Delete SRC folder from the maven parent project (parent module)
+
+Open and set pom.xml 
 
