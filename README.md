@@ -57,11 +57,62 @@ Set SDK if not set
 
 Delete SRC folder from the maven parent project (parent module)
 
-## Open and set pom.xml correctly to start coding
+## Open and set pom.xml correctly to start coding project
 
 Main configuration is complete.
 
 Parent project pom.xml file is set up properly.
 
-Check **'fraud-check-service'** repo from now on.
+## Open Maven
 
+Reaload all Maven Projects
+
+Wait for Sync to finish
+
+Check for pluglins and dependencies
+
+## Clean
+
+Results:
+
+"C:\Program Files\Java\jdk-18\bin\java.exe" -Dmaven.multiModuleProjectDirectory=D:\SpringBootProjects\fraud-check-service "-Dmaven.home=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3" "-Dclassworlds.conf=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven-event-listener.jar" "-javaagent:D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\lib\idea_rt.jar=62065:D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\bin" -Dfile.encoding=UTF-8 -classpath "D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license" org.codehaus.classworlds.Launcher -Didea.version=2022.1 clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< br.com.siomara:fraud-check-service >-----------------
+[INFO] Building fraud-check-service 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fraud-check-service ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.495 s
+[INFO] Finished at: 2022-06-11T03:35:52-03:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
+
+## Validate
+
+Results:
+
+"C:\Program Files\Java\jdk-18\bin\java.exe" -Dmaven.multiModuleProjectDirectory=D:\SpringBootProjects\fraud-check-service "-Dmaven.home=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3" "-Dclassworlds.conf=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven-event-listener.jar" "-javaagent:D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\lib\idea_rt.jar=62068:D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\bin" -Dfile.encoding=UTF-8 -classpath "D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\TECH_ENV\ide\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license" org.codehaus.classworlds.Launcher -Didea.version=2022.1 validate
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< br.com.siomara:fraud-check-service >-----------------
+[INFO] Building fraud-check-service 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.343 s
+[INFO] Finished at: 2022-06-11T03:36:33-03:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
+
+## Final notes
+
+Set up is complete
+
+See **"fraud-check-service"** from now on.
